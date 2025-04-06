@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+    /* pentru a face scrol plavnai cand apes pe link */
+    scroll-behavior: smooth;
+}
+
+/* Base */
+body {
+    /* asta este de la google fonts */
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(160, 160, 160);
+}
+
+.none {
+    display: none !important;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* header */
+.header {
+    
+
+    padding-bottom: 80px;
+    padding-top: 80px;
+
+    /* facem rotungire la cont */
+    border-bottom-right-radius: 100px;
+    /* facem rotungire la cont */
+    background-color: #000000;
+    /* background: #252525 linear-gradient(158deg, #2f2f2f 0%, #202020 100%); */
+    /* aici dupa nr la gradient trebuie de sters virgula */
+    color: #fff;
+
+
+    /* pentru video */
+    position: relative;
+    overflow: hidden;
+}
+
+.header .container {
+    position: relative;
+    z-index: 9;
+}
+
+.header-video {
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-bottom-right-radius: 100px;
+
+}
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 60px;
+}
+
+
+.header-img {
+    border-radius: 80px;
+}
+
+.header-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.header-text {
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.header-btns {
+    display: flex;
+    column-gap: 20px;
+}
+
+.btn {
+
+    color: #fff;
+    background-color: #000000;
+    border-radius: 8px;
+    height: 48px;
+
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 16px;
+
+    transition: all 0.2s ease-in;
+}
+
+
+.btn:hover {
+    background-color: #1782CF;
+}
+
+.btn-nofon {
+
+    color: #fff;
+    border: #2f2f2f 1px solid;
+    border-radius: 8px;
+    height: 48px;
+
+    font-size: 16px;
+    padding-left: 25px;
+    padding-top: 13px;
+    padding-right: 25px;
+
+    transition: all 0.2s ease-in;
+}
+
+.btn-nofon:hover {
+    border-color: #1782CF;
+}
+
+/* main */
+.portfolio {
+    padding: 80px 0;
+}
+
+.portfolio-title {
+    color: #000000;
+    font-weight: 700;
+    font-size: 52px;
+    text-align: center;
+    margin-bottom: 65px;
+    margin-top: 86px;
+}
+
+.projects {
+    align-items: center;
+    row-gap: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    text-align: center;
+
+}
+
+.project-img {
+    margin-bottom: 30px;
+    border-radius: 30px;
+    transition: all 0.2s ease-in;
+}
+
+/* face mai blednaia */
+.project-img:hover {
+    opacity: 0.8;
+}
+
+.project-title {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.project-title a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* contacte */
+
+.contacte {
+    margin-top: 70px;
+    color: #fff;
+    background-color: #252525;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    border-top-left-radius: 100px;
+}
+
+.contacte-title {
+    text-align: center;
+    font-size: 52px;
+    font-weight: 600;
+    margin-bottom: 65px;
+}
+
+.contacts-btns {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.butn {
+
+    display: flex;
+    flex-grow: 1;
+    column-gap: 15px;
+    align-items: center;
+
+    color: #fff;
+    font-size: 20px;
+    height: 140px;
+
+    border: #363636 1px solid;
+    border-radius: 20px;
+    padding: 48px 20px;
+
+    transition: all 0.2s ease-in;
+}
+
+.butn:hover {
+    background-color: #1b1b1b;
+}
+
+/* footer */
+
+.footer {
+    background-color: #1E1E1E;
+    display: flex;
+    text-align: center;
+}
+
+.descriere-footer {
+    margin: 30px 0;
+}
+
+.text-footer {
+    color: #5D5D5D;
+    margin-bottom: 15px;
+}
+
+.link {
+    color: #5886A8;
+}
+
+/* pagina mobila */
+
+.alte-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+
+}
+
+.alte-detail {
+    display: flex;
+    row-gap: 25px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+.alte-name {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.alte-text {
+    color: #555555;
+    max-width: 570px;
+}
+
+
+
+.alte-link a {
+    color: #000000;
+}
+
+/* img */
+
+.alte-img {
+    display: block;
+    margin: 40px auto;
+}
+
+/* linku la pagina principala */
+
+.alte-link-back {
+
+    max-width: 770px;
+    margin: 0 auto;
+    padding: 30px ;
+
+    display: flex;
+    flex-direction: row;
+
+    column-gap: 10px;
+    justify-content: center;
+    text-align: center;
+
+    color: #000000;
+    background-color: #F1F1F1;
+
+    transition: all 0.2s ease-in;
+}
+
+.alte-link-back:hover {
+    background-color: #b1afaf;
+}
+
+.incercare:visited {
+    color: rgb(22, 110, 22);
+}
+
+.incercare:link {
+    color: blueviolet;
+}

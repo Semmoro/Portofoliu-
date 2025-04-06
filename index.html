@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-(Experienta mea)</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+    <link rel="icon" type="image/x-icon" href="./favicons/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-row">
+
+                <!-- srcset="./img/photo@2x.jpg @2x" se adauga pentru razrisenie mai mare  -->
+                <img src="./img/photo.jpg" srcset="./img/photo@2x.jpg @2x" alt="Photo" class="header-img">
+
+                <!-- descrierea -->
+                <div class="header-description">
+                    <h1 class="header-title">Morozan Catalin</h1>
+                    <p class="header-text">frilancer, web-developer,<br> crearea site-urilor</p>
+
+                    <!-- butoane -->
+                    <div class="header-btns">
+                        <a href="#portofoliu" class="btn">Portofoliu</a>
+                        <a href="#contacte" class="btn-nofon">Contactare</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- autoplay-(porneste video cand se porneste siteul
+         muted-fara zvuc, loop- zanovo se voispraizvedeste) -->
+        <video class="header-video" autoplay muted loop>
+            <source type="video/mp4" src="./VIDEO-FON/7534239-hd_1280_720_25fps.mp4">
+        </video>
+
+    </header>
+
+    <main>
+        <section id="portofoliu" class="portofoliu ">
+            <div class="container">
+                <h2 class="portfolio-title">Portofoliu</h2>
+                <div class="projects">
+
+                    <article class="project">
+                        <a href="./panto.html">
+                            <img src="./img/project-01.jpg" srcset="./img/project-01@2x.jpg 2x"
+                                alt="Site-ul magazinului de mobila" class="project-img">
+                        </a>
+
+                        <h3 class="project-title"><a href="./panto.html">Site-ul magazinului de mobila</a></h3>
+                        
+
+                    </article>
+
+                    <article class="project">
+
+                        <a href="./go_travel.html">
+                            <img src="./img/project-02.jpg" srcset="./img/project-02@2x.jpg 2x"
+                                alt="Site-ul agentiei turistice" class="project-img">
+                        </a>
+
+                        <h3 class="project-title"><a href="./go_travel.html">Site-ul agentiei turistice</a></h3>
+
+
+                    </article>
+
+                    <article class="project">
+
+                        <a href="./lofthouse.html">
+                            <img src="./img/Lofthouse/project-03.jpg" srcset="./img/Lofthouse/project-03@2x.jpg 2x"
+                                alt="Site-ul complexului viu" class="project-img">
+                        </a>
+
+                        <h3 class="project-title"><a href="./lofthouse.html">Site-ul complexului viu</a></h3>
+
+                    </article>
+                </div>
+
+            </div>
+        </section>
+        <section id="contacte" class="contacte">
+            <h3 class="contacte-title">Contacte</h3>
+            <div class="container">
+
+                <div class="contacts-btns">
+                    <a href="https://t.me/youraccountname" target="_blank" class="butn"><img src="./icons/telegram1.svg"
+                            alt="Написать в Telegram">Scrietine pe Telegram</a>
+                    <a href="https://wa.me/068526991" target="_blank" class="butn"><img src="./icons/whatsapp.svg"
+                            alt="Отправить в WhatsApp">Scrietine pe WhatsApp</a>
+                    <a href="https://vk.com/" target="_blank" class="butn"><img src="./icons/vk.svg"
+                            alt="Связаться Вконтакте">Scrietine pe Wkontacte</a>
+                </div>
+
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer ">
+        <div class="container">
+            <div class="descriere-footer">
+
+                <h4 class="text-footer">© Morozan Catalin<br>HTML frontender, crearea site-urilor Moldova</h4>
+                <a href="https://webcademy.ru/blog/" target="_blank" class="link">💻 Maketul creat de Webcademia</a>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
