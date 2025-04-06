@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.first-screen {
+    background-color: rgb(36, 43, 51);
+    height: 840px;
+    background-image: url('./LofthouseImgFon/Rectangle.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navigation {
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.sus {
+    font-size: 36px;
+    padding-bottom: 5px;
+    font-family: Post No Bills Jaffna SemiBold, serif;
+}
+
+.jos {
+    font-size: 14px;
+}
+
+.menu {
+    width: 541px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav {
+    color: white;
+}
+
+.first-screen-for-center {
+    height: 710px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-screen-center {
+    width: 582px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.center-main-text {
+    color: rgb(212 193 127);
+    font-size: 48px;
+    font-family: Playfair Display;
+    font-weight: 500;
+}
+
+.mouse {
+    width: 27px;
+    height: 40px;
+}
+
+.mouse-one {
+    transform: translateY(5px);
+}
+
+.mouse-two {
+    transform: translateY(-20px);
+}
+
+.date {
+    color: white;
+    width: 582px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 170px;
+}
+
+.phone {
+    padding-right: 15px;
+}
+
+.placeholder {
+    padding-right: 15px;
+}
+
+/* ---------------------------------------------------------- */
+
+main {
+    background-color: rgb(36, 43, 51);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 110px;
+}
+
+.testimonials {
+    width: 794px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.testimonials-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.appartaments {
+    margin-top: 110px;
+}
+
+.appartaments h3 {
+    color: rgb(212 193 127);
+    font-size: 36px;
+    font-family: Playfair Display;
+    padding-bottom: 80px;
+}
+
+.foto-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.appartament-name {
+    color: white;
+    font-size: 20px;
+    transform: translate(50px, -60px);
+}
+
+.block-fon {
+    height: 560px;
+    width: 100%;
+    background-image: url(./LofthouseImgFon/Fon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-search {
+    width: 540px;
+    height: 135px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 15px;
+    column-gap: 30px;
+}
+
+.info-form {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-50px);
+    width: 550px;
+}
+
+.info-text {
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    padding-right: 30px;
+}
+
+.titlu-form {
+    color: rgb(212 193 127);
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Playfair Display;
+    padding-bottom: 17px;
+}
+
+.form-search {
+    color: rgb(255, 231, 231);
+}
+
+.btns-form {
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    opacity: 0.2;
+}
+
+.first-btn p {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    transform: translateY(-35px)
+}
+
+.second-btn p {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    transform: translateY(-35px)
+}
+
+.btn-search {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(212 193 127);
+    font-weight: bold;
+    color: white;
+}
+
+.search-text {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.maps-block {
+    margin: 180px 0;
+}
+
+.maps-block h3 {
+    color: rgb(212 193 127);
+    padding-bottom: 88px;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.task {
+    width: 1115px;
+    height: 136px;
+    margin-bottom: 180px;
+}
+
+.task-block {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+}
+
+.titlu-task {
+    color: rgb(212 193 127);
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Playfair Display;
+    padding-bottom: 49px;
+}
+
+.task-text {
+    color: white;
+    font-size: 12px;
+    display: flex;
+}
+
+/* ---------------------------------------------------------- */
+
+footer {
+    background-color: rgb(45, 52, 60);
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box {
+    width: 1110px;
+    height: 160px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+}
+
+.footer-col {
+    width: 240px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+span {
+    color: rgb(212 193 127);
+}
+
+.footer-icons {
+    display: flex;
+    gap: 22px;
+}
+
+.footer-nav {
+    color: white;
+}
