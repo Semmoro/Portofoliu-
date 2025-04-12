@@ -54,6 +54,10 @@ body {
     color: white;
 }
 
+.burger-menu {
+    display: none;
+}
+
 .first-screen-for-center {
     height: 710px;
     display: flex;
@@ -303,6 +307,15 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 50px;
+}
+
+.footer-col-mica {
+    width: 150px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
 }
 
 .footer-col {
