@@ -1,0 +1,150 @@
+@media (max-width: 1218px) {
+    .card {
+        max-width: 450px;
+    }
+}
+
+@media (max-width:1116px) {
+    .testimonials {
+        width: 95%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 35px;
+        column-gap: 35px;
+    }
+
+    .testimonials-element {
+        row-gap: 15px;
+    }
+/* ------------------------------------------------------- */
+        .card {
+            max-width: 315px;
+        }
+
+        .appartament-name {
+            transform: translate(20px, -50px);
+        }
+/* ------------------------------------------------------- */
+    .block-fon {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-search {
+        width: 95%;
+        column-gap: 15px;
+    }
+
+    .info-form {
+        width: 95%;
+    }
+    /*---------------------------------------------------- */
+    .task {
+        width: 95%;
+        height: 136px;
+    }
+
+    .task-block {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 15px;
+        
+    }
+
+    .task-text {
+        display: none;
+    }
+
+    .last-btn-search {
+        grid-column: 1 / 3;
+        width: auto;
+    }
+
+    /* -------------------------------------------------- */
+    .footer-box {
+        width: 95%;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 25px;
+        margin: 20px;
+    }
+
+    .despare-pe-telefon {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .navigation {
+        justify-content: space-around;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+    .first-screen-for-center {    
+        height: 710px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-screen-center {
+        width: 70%;
+        height: 470px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
+
+    .center-main-text {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .date {
+        width: auto;
+        flex-direction: column;
+        align-items: start;
+        padding-top: 110px;
+        row-gap: 20px;
+    }
+
+    /* --------------------------------------------------- */
+    .appartaments h3 {
+        padding-bottom: 30px;
+    }
+
+    .foto-cards {
+        grid-template-columns: 1fr;
+        row-gap: 15px;
+    }
+
+    .appartament-name {
+        transform: translate(20px, -50px);
+    }
+    /* --------------------------------------------------- */
+
+ 
+}
+
+@media (max-width: 630px) {
+    .footer-col-mica {
+        display: none;
+    }
+
+    .footer-box {
+        width: 95%;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 25px;
+        margin: 20px;
+    }
+}

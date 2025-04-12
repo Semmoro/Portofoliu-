@@ -54,6 +54,10 @@ body {
     color: white;
 }
 
+.burger-menu {
+    display: none;
+}
+
 .first-screen-for-center {
     height: 710px;
     display: flex;
@@ -175,7 +179,6 @@ main {
     height: 135px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 15px;
     column-gap: 30px;
 }
 
@@ -206,7 +209,7 @@ main {
 }
 
 .btns-form {
-    width: 250px;
+    /* width: 250px; */
     height: 50px;
     background-color: white;
     opacity: 0.2;
@@ -227,7 +230,7 @@ main {
 }
 
 .btn-search {
-    width: 250px;
+    /* width: 250px; */
     height: 50px;
     background-color: rgb(212 193 127);
     font-weight: bold;
@@ -255,7 +258,7 @@ main {
 }
 
 .task {
-    width: 1115px;
+    width: 95%;
     height: 136px;
     margin-bottom: 180px;
 }
@@ -280,6 +283,14 @@ main {
     display: flex;
 }
 
+.last-btn-search {
+    width: auto;
+    height: 50px;
+    background-color: rgb(212 193 127);
+    font-weight: bold;
+    color: white;
+}
+
 /* ---------------------------------------------------------- */
 
 footer {
@@ -296,6 +307,15 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 50px;
+}
+
+.footer-col-mica {
+    width: 150px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
 }
 
 .footer-col {
