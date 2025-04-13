@@ -148,3 +148,153 @@
         margin: 20px;
     }
 }
+
+@media (max-width: 430px) {
+    .sus {
+        font-size: 30px;
+        padding-bottom: 1px;
+    }
+
+    .jos {
+        font-size: 12px;
+    }
+
+    .center-main-text {
+        font-size: 25px;
+    }
+
+    .date {
+        font-size: 14px;
+    }
+/* ------------------------------------------------------- */ 
+    main {
+        padding-top: 50px;
+    }
+
+    .testimonials {
+        width: 50%;
+        row-gap: 30px;
+        column-gap: 30px;
+        justify-content: center;
+    }
+
+    .testimonials-element {
+        width: 130px;
+        font-size: 12px;
+    }
+
+    .testimonial-icon {
+        width: 55px;
+    }
+/* ------------------------------------------------------- */
+    .appartaments h3 {
+        padding-bottom: 15px;
+        font-size: 30px;
+    }
+
+    .appartaments {
+        margin-top: 80px;
+    }
+
+    .card {
+        max-width: 260px;
+    }
+
+    .appartament-name {
+        transform: translate(20px, -50px);
+        font-size: 16px;
+    }
+/* -------------------------------------------------------- */
+    .block-fon {
+        height: 450px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-search {
+        width: 90%;
+        column-gap: 15px;
+        
+    }
+
+    .info-form {
+        width: 90%;
+    }
+
+    .info-text {
+        color: white;
+        font-size: 12px;
+    }
+
+    .titlu-form {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+
+    .search-text {
+        font-size: 10px;
+    }
+
+    .first-btn {
+        font-size: 14px;
+    }
+
+    .second-btn {
+        font-size: 14px;
+    }
+
+    .btn-search {
+        font-size: 13px;
+    }
+
+    .video {
+        width: 300px;
+    }
+/* ------------------------------------------------------ */
+     .maps-block {
+         margin: 90px 0;
+         width: 90%;
+     }
+ 
+     .maps-block h3 {
+         padding-bottom: 25px;
+         font-size: 28px;
+     }
+/* ------------------------------------------------------- */
+
+    .task {
+        width: 90%;
+    }
+
+    .titlu-task {
+        font-size: 28px;
+        padding-bottom: 25px;
+    } 
+
+    .task-block {
+        column-gap: 10px;
+    }
+
+    .last-btn-search {
+        font-size: 14px;
+    }
+/* ------------------------------------------------------- */
+    footer {
+        height: 260px;
+        
+    }
+
+    .footer-box {
+        display:flex;
+        row-gap: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-col {
+        width: 180px;
+        font-size: 10px;
+        row-gap: 8px;
+    }
+} 
