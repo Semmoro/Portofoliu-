@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
+
+.phone-navigation {
+    display: none;
+}
+
+.burger-menu-icon {
+    height: 40px;
+}
+
 
 .first-screen {
     background-color: rgb(36, 43, 51);
@@ -16,7 +29,8 @@ body {
     background-repeat: no-repeat;
 }
 
-.navigation {
+
+.burger-menu-container {
     height: 130px;
     display: flex;
     flex-direction: row;
@@ -54,9 +68,7 @@ body {
     color: white;
 }
 
-.burger-menu {
-    display: none;
-}
+
 
 .first-screen-for-center {
     height: 710px;
@@ -112,6 +124,7 @@ body {
 .placeholder {
     padding-right: 15px;
 }
+
 
 /* ---------------------------------------------------------- */
 

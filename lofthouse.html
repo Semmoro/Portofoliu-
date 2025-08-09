@@ -16,9 +16,30 @@
 <body>
 
     <header>
+
         <div class="first-screen">
 
-            <div class="navigation">
+        
+
+        <div class="navigation">
+
+            <div class="phone-navigation">
+
+                <div class="logo">
+                    <p class="sus">LoftHouse</p>
+                    <p class="jos">ЖИЛОЙ КОМПЛЕКС</p>
+                </div>
+
+                <button class="burger-menuBtn">  
+                    <img class="burger-menu-icon" src="./icons/burger-menu.svg" alt="menu">
+                </button>
+
+                <div class="overley"></div>
+            </div>
+            
+
+            <div class="burger-menu-container">
+
                 <div class="logo">
                     <p class="sus">LoftHouse</p>
                     <p class="jos">ЖИЛОЙ КОМПЛЕКС</p>
@@ -32,22 +53,24 @@
                     <a href="#ipoteca" class="nav ">Ипотека</a>
                 </div>
 
-                <img class="burger-menu" src="./icons/burger-menu.svg" alt="menu">
             </div>
-            <div class="first-screen-for-center">
-                <div class="first-screen-center">
-                    <h3 class="center-main-text">Жилой комплекс в историческом центре</h3>
-                    <div class="mouse">
-                        <img src="./icons/mouse.svg" alt="mouse" class="mouse-one">
-                        <img src="./icons/mouse2.svg" alt="mouse-two" class="mouse-two">
-                    </div>
-                    <div class="date">
-                        <p><img src="./icons/placeholder.svg" alt="placeholder" class="placeholder">Наб. реки Фонтанки
-                            10-15</p>
-                        <p><img src="./icons/phone-call.svg" alt="phone" class="phone">8 (812) 123-45-67</p>
-                    </div>
+           
+        </div>
+        
+        <div class="first-screen-for-center">
+            <div class="first-screen-center">
+                <h3 class="center-main-text">Жилой комплекс в историческом центре</h3>
+                <div class="mouse">
+                    <img src="./icons/mouse.svg" alt="mouse" class="mouse-one">
+                    <img src="./icons/mouse2.svg" alt="mouse-two" class="mouse-two">
+                </div>
+                <div class="date">
+                    <p><img src="./icons/placeholder.svg" alt="placeholder" class="placeholder">Наб. реки Фонтанки
+                        10-15</p>
+                    <p><img src="./icons/phone-call.svg" alt="phone" class="phone">8 (812) 123-45-67</p>
                 </div>
             </div>
+        </div>
 
         </div>
     </header>
@@ -72,7 +95,7 @@
             </div>
         </div>
 
-        <div class="appartaments">
+        <div class="appartaments" id="catalog">
             <h3>Наши квартиры</h3>
             <div class="foto-cards">
                 <div class="card">
@@ -94,7 +117,7 @@
             </div>
         </div>
 
-        <div class="block-fon">
+        <div class="block-fon" id="despre-noi">
             <div class="info-form">
                 <h3 class="titlu-form">Хотите посмотреть?</h3>
                 <p class="info-text">ЖК LoftHouse – это проект бизнес-класса, расположенный в центре города, на Наб.
@@ -127,12 +150,12 @@
             <img src="./VIDEO/video.jpg" alt="video">
         </div>
 
-        <div class="maps-block">
+        <div class="maps-block" id="raion">
             <h3>Район на карте</h3>
             <img src="./img/Lofthouse/Maps 3.jpg" alt="Район на карте">
         </div>
 
-        <div class="task">
+        <div class="task" id="ipoteca">
             <h3 class="titlu-task">Есть вопросы?</h3>
             <div class="task-block">
                 <p class="task-text">Мы никому не передаем ваши данные.
@@ -155,7 +178,7 @@
     </main>
 
     <footer>
-        <div class="footer-box">
+        <div class="footer-box" id="contacte" >
 
             <div class="logo">
                 <p class="sus">LoftHouse</p>
@@ -196,6 +219,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js-lofthouse/main-lofthouse.js" type="module"></script>
 </body>
 
 </html>
