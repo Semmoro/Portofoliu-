@@ -103,13 +103,12 @@
     }
 
     .header-img {
-        max-width: 100%;
-        width: auto;
+        width: 290px;
         border-radius: 30px;
     }
 
     .header-title {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .btn,
@@ -120,14 +119,12 @@
         padding-left: 15px;
         padding-right: 15px;
         font-size: 16px;
-
-
     }
 
     .portfolio-title {
         font-size: 28px;
     }
-
+    
     .projects {
         row-gap: 40px;
     }
