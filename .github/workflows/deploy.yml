@@ -2,7 +2,7 @@ name: Deploy Vite site to GitHub Pages
 
 on:
   push:
-    branches: [ main ]   # 🚨 укажи свою ветку (у тебя vite)
+    branches: [ main ]   
 
 jobs:
   build:
