@@ -60,7 +60,7 @@ body {
 .first-screen {
     background-color: rgb(36, 43, 51);
     height: 840px;
-    background-image: url('./LofthouseImgFon/Rectangle.jpg');
+    background-image: url('../public/img/Rectangle.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -124,7 +124,7 @@ body {
 
 /* ---------------------------------------------------------- */
 
-main {
+body main {
     background-color: rgb(36, 43, 51);
     display: flex;
     flex-direction: column;
@@ -152,7 +152,10 @@ main {
 
 .appartaments {
     margin-top: 110px;
+    display: flex;
+    flex-direction: column; 
     
+       
 }
 
 .appartaments h3 {
@@ -160,11 +163,14 @@ main {
     font-size: 36px;
     font-family: Playfair Display;
     padding-bottom: 80px;
+    align-self: flex-start;
+    
 }
 
 .img-cards {
     width: 60vw;
     height: auto;
+       
 }
 
 .appartament-name {
@@ -182,7 +188,7 @@ main {
 .block-fon {
     height: 560px;
     width: 100%;
-    background-image: url(./LofthouseImgFon/Fon.jpg);
+    background-image: url(../public/img/Fon.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -275,8 +281,8 @@ main {
 
 .task {
     width: 95%;
-    height: 136px;
-    margin-bottom: 180px;
+    height: auto;
+    padding-bottom: 5vh;
 }
 
 .task-block {
@@ -309,7 +315,9 @@ main {
 
 /* ---------------------------------------------------------- */
 
-footer {
+body footer {
+    padding-top: 5vh;
+    padding-bottom: 7vh;
     background-color: rgb(45, 52, 60);
     height: 25vh;
     display: flex;

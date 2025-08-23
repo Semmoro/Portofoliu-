@@ -36,7 +36,6 @@
     /*---------------------------------------------------- */
     .task {
         width: 95%;
-        height: 136px;
     }
 
     .task-block {
@@ -55,11 +54,16 @@
     }
 
     /* -------------------------------------------------- */
+    body footer {
+         height: auto;
+         padding-top: 5vh;
+         padding-bottom: 5vh;
+     }
+    
     .footer-box {
         width: 95%;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 25px;
-        margin: 20px;
     }
 
     .despare-pe-telefon {
@@ -158,10 +162,6 @@
         padding-bottom: 30px;
     }
 
-    .foto-cards {
-        grid-template-columns: 1fr;
-        row-gap: 15px;
-    }
 
     .appartament-name {
         transform: translate(20px, -50px);
@@ -213,7 +213,7 @@
 
         
 /* ------------------------------------------------------- */ 
-    main {
+    body main {
         padding-top: 50px;
     }
 
@@ -326,11 +326,7 @@
         font-size: 14px;
     }
 /* ------------------------------------------------------- */
-    footer {
-        height: 260px;
-        
-    }
-
+    
     .footer-box {
         display:flex;
         row-gap: 40px;
