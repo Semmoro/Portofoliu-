@@ -216,13 +216,16 @@
     } 
     .about {
         &__title {
-            &_big {
+            &_big {width: 350px;
                 font-size: 25px;
             }
         }
         &__text {
             font-size: 13px;
-            width: 300px;
+            width: 200px;
+            span {
+                display: none;
+            }
         }
     }
     .search {
@@ -254,20 +257,20 @@
         }
 
         &__item4 {
-            transform: translate(62vw, 14vh);
+            transform: translate(61vw, 13vh);
             width: 30px;
         }
 
         &__item5 {
             display: block;
             width: 25px;
-            transform: translate(83vw, -26vh);
+            transform: translate(85vw, -26vh);
         }
     }
     //main
     .why-us {
-        padding: 60px 20px;
-        column-gap: 20px;
+        padding: 60px 15px;
+        column-gap: 15px;
         &__title {
             width: 120px;
             font-size: 21px;
@@ -281,7 +284,7 @@
         span {
             display: none;
         }
-        width: 130px;
+        width: 127px;
         &_disapear {
             display: none;
         }
