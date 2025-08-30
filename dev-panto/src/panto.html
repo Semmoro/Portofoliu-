@@ -11,20 +11,22 @@
     <div class="first-screen">
         <header class="header">
             <div class="header__logo">Panto</div>
-
             <nav class="nav">
                 <a href="#Furniture" class="nav__link">Furniture</a>
                 <a href="#Shop" class="nav__link">Shop</a>
                 <a href="#About Us" class="nav__link">About Us</a>
                 <a href="#Contact" class="nav__link">Contact</a>
             </nav>
-
-            <div class="header__store"><img src="../public/icons/Bag.svg" alt="store"></div>     
+            <div class="header__buttons">
+                <button class="header__store" type="button"><img src="../public/icons/Bag.svg" alt="store"></button>
+                <button class="header__menu" type="button"><img src="../public/icons/burger-menu.svg" alt="menu"></button>
+            </div>
+            
         </header>
 
         <div class="about">
-            <div class="about__title about__title_big">Make your interior more
-            minimalistic & modern</div>
+            <h1 class="about__title about__title_big">Make your interior more
+            minimalistic & modern</h1>
             <p class="about__text">Turn your room with panto into a lot more minimalist and modern with ease and speed</p>
         </div>
 
@@ -49,23 +51,25 @@
         <section class="why-us">
             <div class="why-us__title">Why Choosing Us</div>
 
-            <div class="colums">
+            <div class="why-us__columns-row">
+                <div class="colums">
                 <div class="colums__name">Luxury facilities</div>
-                <div class="colums__text">The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.</div>
+                <div class="colums__text">The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities</div>
                 <a class="colums__text_yellow">More Info <img src="../public/icons/Vector.svg"></a>
-            </div>
+                </div>
 
-            <div class="colums">
-                <div class="colums__name">Affordable Price</div>
-                <div class="colums__text">You can get a workspace of the highst quality at an affordable price and still enjoy the facilities that are oly here.</div>
-                <a class="colums__text_yellow">More Info <img src="../public/icons/Vector.svg"></a>
-            </div>
+                <div class="colums">
+                    <div class="colums__name">Affordable Price</div>
+                    <div class="colums__text">You can get a workspace of the highst quality at an affordable price and still enjoy the facilities <span>that are oly here</span></div>
+                    <a class="colums__text_yellow">More Info <img src="../public/icons/Vector.svg"></a>
+                </div>
 
-            <div class="colums">
-                <div class="colums__name">Many Choices</div>
-                <div class="colums__text">We provide many unique work space choices so that you can choose the workspace to your liking.</div>
-                <a class="colums__text_yellow">More Info <img src="../public/icons/Vector.svg"></a>
-            </div>
+                <div class="colums colums_disapear" >
+                    <div class="colums__name">Many Choices</div>
+                    <div class="colums__text">We provide many unique work space choices so that you can choose the workspace to your liking</div>
+                    <a class="colums__text_yellow">More Info <img src="../public/icons/Vector.svg"></a>
+                </div>
+            </div> 
         </section>
 
         <section class="selling">
@@ -82,7 +86,7 @@
 
                 <button class="slider__arrow-left"><img src="../public/icons/panto-arrow-left.svg" ></button>
                 
-                <div class="card">
+                <div class="card card_none1">
                     <div class="card__img"><img src="../public/img/chair-01.png" alt="Sakarias Armchair"></div>
                     <div class="card__text">Chair</div>
                     <div class="card__name">Sakarias Armchair</div>
@@ -91,7 +95,7 @@
                     <button class="card__button-add"><img src="../public/icons/znacioc-to-store.svg" alt="to-store"></button>
                 </div>
 
-                <div class="card">
+                <div class="card card_none2">
                     <div class="card__img"><img src="../public/img/chair-02.png" alt="Baltsar Chair"></div>
                     <div class="card__text">Chair</div>
                     <div class="card__name">Baltsar Chair</div>
@@ -100,7 +104,7 @@
                     <button class="card__button-add"><img src="../public/icons/znacioc-to-store.svg" alt="to-store"></button>
                 </div>
 
-                <div class="card">
+                <div class="card card_none3">
                     <div class="card__img"><img src="../public/img/chair-03.png" alt="Anjay Chair"></div>
                     <div class="card__text">Chair</div>
                     <div class="card__name">Anjay Chair</div>
@@ -109,7 +113,7 @@
                     <button class="card__button-add"><img src="../public/icons/znacioc-to-store.svg" alt="to-store"></button>
                 </div>
 
-                <div class="card">
+                <div class="card card_none4">
                     <div class="card__img"><img src="../public/img/chair-04.png" alt="Nyantuy Chair"></div>
                     <div class="card__text">Chair</div>
                     <div class="card__name">Nyantuy Chair</div>
@@ -126,28 +130,32 @@
 
     <footer class="footer">
             <div class="contacts">
-                <div class="info">
-                    <div class="info__logo">Panto</div>
-                    <div class="info__text">The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.</div>
+                <div class="contscts__info">
+                    <div class="logo">Panto</div>
+                    <div class="text">The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.</div>
                 </div>
-                <div class="service">
+
+                <div class="contacts__links">
+                    <div class="service">
                     <div class="service__text service__text_yellow">Services</div>
                     <div class="service__text">Email Marketing</div>
                     <div class="service__text">Campaigns</div>
                     <div class="service__text">Branding</div>
+                    </div>
+                    <div class="furniture">
+                     <div class="service__text service__text_yellow">Furniture</div>
+                     <div class="service__text">Beds</div>
+                     <div class="service__text">Chair</div>
+                     <div class="service__text">All</div>
+                    </div>
                 </div>
-                <div class="furniture">
-                    <div class="service__text service__text_yellow">Furniture</div>
-                    <div class="service__text">Beds</div>
-                    <div class="service__text">Chair</div>
-                    <div class="service__text">All</div>
-                </div>
+
             </div>
             <div class="copyright">
                 <div class="copyright__year">Copyright © 2021</div>
-                <div class="documentation">
-                    <div class="documentation__text">Terms & Conditions</div>
-                    <div class="documentation__text">Privacy Policy</div>
+                <div class="copyright__doc">
+                    <div class="copyright__text">Terms & Conditions</div>
+                    <div class="copyright__text">Privacy Policy</div>
                 </div>
             </div>
     </footer>

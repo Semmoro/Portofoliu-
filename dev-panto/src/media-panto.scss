@@ -1,0 +1,473 @@
+@media (max-width: 1116px) {
+    //header
+    .header {
+    justify-content: space-evenly;
+    }
+    .nav {
+    column-gap: 42px;
+    }
+    .about {
+        &__title {
+            &_big {
+                width: 70vw;
+                font-size: 55px;
+            } 
+        }
+        &__text {
+        font-size: 20px;
+        }
+    }
+    .details {
+        &__item1 {
+            transform: translate(20vw, -11vh);
+            width: 40px;
+        }
+
+        &__item2 {
+            transform: translate(18vw, -17vh);
+            width: 80px;
+        }
+
+        &__item3 {
+            transform: translate(90vw, -30vh);
+        }
+
+        &__item4 {
+            transform: translate(60vw, 14vh);
+        }
+
+        &__item5 {
+            display: none;
+        }
+    }
+    //main
+    .why-us {
+        &__title {
+            width: 230px;
+            font-size: 34px;
+        }
+    }
+    .colums {
+        width: 170px;
+        &__name {
+            font-size: 18px;
+        }
+        &__text {
+            font-size: 14px;
+            &_yellow{
+                font-size: 14px;
+            }
+        }
+    }
+    .selling {
+        &__title {
+            font-size: 34px;
+        }
+        &__text {
+           &_yellow {
+                font-size: 14px;
+            } 
+        }
+        
+    }
+    .tabs {
+        &__tab {
+            font-size: 14px;
+        }
+    }
+    .card {
+        width: 230px;
+        height: 400px;
+
+        &__name {
+            font-size: 18px;
+        }
+        &__button-add {
+        transform: translateX(70px);
+        }
+    }
+    //footer
+    .contacts {
+        padding: 90px 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    //header
+    .header {
+        justify-content: space-evenly;
+        column-gap: 50px;
+    }
+
+    .nav {
+        column-gap: 20px;
+        &__link {
+            font-size: 16px;
+            padding-top: 10px;
+        }
+    }
+
+    .about {
+        &__title {
+            &_big {
+                font-size: 45px;
+            }
+        }
+
+        &__text {
+            width: 500px;
+            font-size: 18px;
+        }
+    }
+    //main
+    .why-us {
+        padding: 80px 5px;
+        &__title {
+            font-size: 24px;
+            width: 170px;
+        }
+    }
+
+    .colums {
+        width: 150px;
+        &__name {
+            font-size: 16px;
+        }
+        &__text {
+            font-size: 12px;
+            &_yellow {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .selling {
+        &__title {
+            font-size: 29px;
+        }
+
+        &__text {
+            &_yellow {
+                font-size: 12px;
+            }
+        }
+
+    }
+
+    .slider {
+        column-gap: 20px;
+    }
+
+    .tabs {
+        &__tab {
+            font-size: 15px;
+        }
+    }
+
+    .card {
+        width: 180px;
+        height: 325px;
+        &__text{
+            font-size: 12px;
+        }
+        &__name {
+            font-size: 14px;
+        }
+
+        &__button-add {
+            transform: translateX(50px);
+        }
+    }
+
+    //footer
+
+    .contacts {
+        padding: 90px 120px; 
+        .text {
+        font-size: 12px;
+        }
+    }
+
+    .service {
+        &__text {
+            font-size: 13px;
+        }
+    }
+    .furniture {
+        display: none
+    }
+    .copyright {
+        font-size: 14px;
+        // transform: translateX(-70px);
+    }
+}
+
+@media (max-width: 425px) {
+    //header
+    .header {
+        justify-content: space-around;
+        &__menu {
+            display: block;
+        }
+    }
+    .nav {
+        display: none;
+
+    } 
+    .about {
+        &__title {
+            &_big {
+                font-size: 25px;
+            }
+        }
+        &__text {
+            font-size: 13px;
+            width: 300px;
+        }
+    }
+    .search {
+        width: 250px;
+        &__input {
+            border-radius: 20px;
+            height: 37px;
+            font-size: 12px;
+        }
+        &__button {
+            width: 25px;
+            right: 5px;
+        }
+    }
+    .details {
+        &__item1 {
+            transform: translate(20vw, -16vh);
+            width: 40px;
+        }
+
+        &__item2 {
+            transform: translate(16vw, -22vh);
+            width: 80px;
+        }
+
+        &__item3 {
+            transform: translate(90vw, -30vh);
+            width: 31px;
+        }
+
+        &__item4 {
+            transform: translate(62vw, 14vh);
+            width: 30px;
+        }
+
+        &__item5 {
+            display: block;
+            width: 25px;
+            transform: translate(83vw, -26vh);
+        }
+    }
+    //main
+    .why-us {
+        padding: 60px 20px;
+        column-gap: 20px;
+        &__title {
+            width: 120px;
+            font-size: 21px;
+        }
+        &__columns-row {
+            column-gap: 15px;
+        }
+    }
+    .colums {
+        column-gap: 12px;
+        span {
+            display: none;
+        }
+        width: 130px;
+        &_disapear {
+            display: none;
+        }
+        &__name {
+            font-size: 14px;
+        }
+        &__text {
+            font-size: 12px;
+            &_yellow {
+                font-size: 12px;
+                img {
+                    width: 30px;
+                }
+            }
+        }
+    }
+    .selling {
+        &__title {
+            font-size: 21px;
+        }
+
+        &__text {
+            &_yellow {
+                font-size: 12px;
+                img {
+                    width: 30px;
+                }
+            }
+        }
+
+    }
+    .tabs {
+            width: 300px;
+            &__tab {
+                font-size: 12px;
+                padding: 7px 15px;
+            }
+    }
+    .card {
+        &_none2 {
+                display: none;
+        }
+        &_none3 {
+            display: none;
+        }
+        width: 200px;
+        height: 330px;
+
+        &__name {
+            font-size: 14px;
+        }
+        &__price {
+            font-size: 14px;
+            transform: translateY(35px);
+        }
+        &__button-add {
+            width: 35px;
+            transform: translateX(120px);
+        }
+    }
+    //footer
+    .contacts {
+        padding: 50px 60px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        &__links {
+            display: flex;
+            flex-direction: row;
+            column-gap: 70px;
+        }
+    }
+
+    .service {
+        &__text {
+            font-size: 12px;
+        }
+    }
+
+    .furniture {
+        display: block;
+    }
+
+    .copyright {
+        padding-bottom: 30px;
+        font-size: 9px;
+        &__doc {
+            display: flex;
+            column-gap: 10px;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    //header
+    .header {
+        justify-content: space-evenly;
+        &__buttons {
+            column-gap: 15px;
+        }
+        
+        &__menu {
+            width: 25px;
+        }
+        &__store {
+            width: 25px;
+        }
+    }
+    .about {
+        &__title {
+            &_big {
+                width: 300px;
+                font-size: 20px;
+            }
+        }
+
+        &__text {
+            font-size: 10px;
+            width: 250px;
+        }
+    }
+    .search {
+        width: 230px;
+    }
+    .details {
+        &__item1 {
+            transform: translate(22vw, -16vh);
+            width: 30px;
+        }
+        &__item2 {
+            transform: translate(16vw, -22vh);
+            width: 70px;
+        }
+        &__item3 {
+            transform: translate(85vw, -35vh);
+        }
+        &__item5 {
+            transform: translate(80vw, -30vh);
+        }
+    }
+    //main
+    .why-us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__title {
+            width: 150px;
+            font-size: 21px;
+        }
+        &__columns-row {
+            margin-top: 50px;
+            display: flex;
+            column-gap: 30px;
+        }
+    }
+    .colums {
+        width: 110px;
+        span {
+                display: block;
+            }
+    }
+    .selling {
+        &__title {
+            font-size: 20px;
+        }
+    }
+    .tabs {
+        width: 280px;
+        &__tab {
+            padding: 7px 13px;
+        }
+    }
+    //footer
+    .contacts {
+        padding: 50px 40px;
+        &__links {
+            display: flex;
+            flex-direction: row;
+            column-gap: 70px;
+        } 
+        .text {
+            width: 230px;
+            font-size: 12px
+        }    
+    }
+    .copyright {
+        font-size: 8px;
+    }
+}
