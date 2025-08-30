@@ -270,17 +270,16 @@
     //main
     .why-us {
         padding: 60px 15px;
-        column-gap: 15px;
+        column-gap: 20px;
         &__title {
             width: 120px;
             font-size: 21px;
         }
         &__columns-row {
-            column-gap: 15px;
+            column-gap: 0px;
         }
     }
     .colums {
-        column-gap: 12px;
         span {
             display: none;
         }
@@ -289,14 +288,16 @@
             display: none;
         }
         &__name {
+            width: 100px;
             font-size: 14px;
         }
         &__text {
+            width: 100px;
             font-size: 12px;
             &_yellow {
-                font-size: 12px;
+                font-size: 10px;
                 img {
-                    width: 30px;
+                    width: 25px;
                 }
             }
         }
